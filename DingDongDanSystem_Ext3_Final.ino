@@ -1,11 +1,11 @@
 #include <EEPROM.h>
 
 // Pin configurations
-int set1ButtonPin = 8, set1LEDPin = 9;
-int set2ButtonPin = 4, set2LEDPin = 5;
-int set3ButtonPin = 7, set3LEDPin = 6;
-int doorbellButtonPin = 11, doorbellLEDPin = 10;
-int buzzerPin = 12;
+int set1ButtonPin = 11, set1LEDPin = 12;
+int set2ButtonPin = 7, set2LEDPin = 10;
+int set3ButtonPin = 8, set3LEDPin = 9;
+int doorbellButtonPin = 4, doorbellLEDPin = 5;
+int buzzerPin = 3;
 
 int patternDuration = 0, patternError = 0;
 unsigned long lastActivityTime = 0; // Tracks the last activity for idle timer
